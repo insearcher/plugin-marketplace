@@ -1,0 +1,38 @@
+{
+  "name": "insearcher",
+  "interface": {
+    "displayName": "Insearcher"
+  },
+  "plugins": [
+    {
+      "name": "abq",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/insearcher/abq.git",
+        "path": "plugins/abq",
+        "ref": "agent/abq-plugin-package",
+        "sha": "a670d41c7378f3207d370b96eeec4b300c62ecf1"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vaultctl",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/insearcher/vaultctl.git",
+        "path": "plugins/vaultctl",
+        "ref": "main",
+        "sha": "6af0868dca987206c70f2c40fe450f07340e8242"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
