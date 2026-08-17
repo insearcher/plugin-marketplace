@@ -10,8 +10,8 @@
         "source": "git-subdir",
         "url": "https://github.com/insearcher/abq.git",
         "path": "plugins/abq",
-        "ref": "agent/abq-plugin-package",
-        "sha": "a670d41c7378f3207d370b96eeec4b300c62ecf1"
+        "ref": "main",
+        "sha": "11c3f9b5c52978717d9470810a24f49fec601c47"
       },
       "policy": {
         "installation": "AVAILABLE",
