@@ -11,7 +11,7 @@
         "url": "https://github.com/insearcher/abq.git",
         "path": "plugins/abq",
         "ref": "main",
-        "sha": "11c3f9b5c52978717d9470810a24f49fec601c47"
+        "sha": "b8fd28c5091801f26d06b1c93b6229256881b23a"
       },
       "policy": {
         "installation": "AVAILABLE",
